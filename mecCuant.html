@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DMP</title>
+        <link type="text/css" rel="stylesheet" href="estilos.css">
+        <link type="text/css" rel="stylesheet" href="menu.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="encabezado" style="width: 206px;">
+            La <br> Mec. <br> Cuánt.
+        </div>
+         <div class="con" id="contmenu">
+             <div style="z-index:1; position:relative">
+                <ul>
+                    <li id="c1"><a href="index.html">Menú</a></li>
+                    <li id="c1" ><a href="">Fundamentos</a>
+                        <ul>
+                            <li id="c2" style="padding-top: 20px"><a href="">Observables</a></li>
+                            <li id="c2"><a href="">Probabilidad</a></li>
+                            <li id="c2"><a href="">Espacios H.</a></li>
+                        </ul>
+                    </li>
+                    <li id="c1"><a href="">Dinámica</a>
+                        <ul>
+                            <li id="c2" style="padding-top: 20px"><a href="">Ondas</a></li>
+                            <li id="c2"><a href="">Ec. de Schrödinger</a></li>
+                            <li id="c2"><a href="">Aplicaciones</a></li>
+                            <li id="c2"><a href="">Sistemas</a></li>
+                        </ul>
+                    </li>
+                    <li id="c1"><a href="">M. angular</a>
+                        <ul>
+                            <li id="c2" style="padding-top: 20px"><a href="">Correspondencia</a></li>
+                            <li id="c2"><a href="">Eigenvalores</a></li>
+                            <li id="c2"><a href="">Ejemplos Concretos</a></li>
+                            <li id="c2"><a href="">Spin</a></li>
+                        </ul>
+                    </li>
+                    <li id="c1"><a href="">Sistemas</a>
+                        <ul>
+                            <li id="c2" style="padding-top: 20px"><a href="">Energía de estado</a></li>
+                            <li id="c2"><a href="">Potenciales</a></li>
+                            <li id="c2"><a href="">Energía libre</a></li>
+                            <li id="c2"><a href="">Gases</a></li>
+                        </ul>
+                    </li>
+                    <li id="c1"><a href="">Cuantización</a>
+                        <ul>
+                            <li id="c2" style="padding-top: 20px"><a href="">Principios</a></li>
+                            <li id="c2"><a href="">Herramientas utiles</a></li>
+                            <li id="c2"><a href="">Ejemplo: Electromagn.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <div class="cimagen" style="width: 1060px;">
+                    <div class="imagen"><img src="C:\Users\Choco\Desktop\DS\imagen1 (1).jpg" id="imagen de portada"></div>
+                    <div class="ep">
+                        <p style="font-size: 18px; color: rgb(230, 144, 31); font-weight: 600;" > Ultima vez actualizada: 5-6-2021</p>
+                        <p style="font-size: 16px; font-style: italic;" >1752: Benjamin Franklin prueba que el rayo es electricidad</p>
+                    </div>
+                </div>
+        </div>
+        <div class="cont2">
+            <div class="cajamenor">
+                <h2>Qué es la mecánica cuántica</h2> 
+                <p>Esta disciplina surge de muchos problemas con los resultados de la mecánica clásica sobre temas tan
+                    diversos como la radiación del cuerpo negro, los resultados del experimento stern-gerlach, el
+                    experimento de la doble rendija, o las lieas espectrales de la emisión del hidrógeno
+                </p>
+                <p>Todas estas tienen en común que están cuantizadas, es decir que sólo toman valores definidos las variables 
+                    que se están midiendo, y por definidos son valores discretos y que siguen cierta regla, bien sea de
+                    energía o de momento angular debido al campo magnético
+                </p>
+                <p>Para 1900 no se sabía cuales son los principios de estos fenómenos, y muchas veces se argumentaban
+                    variables desconocidas, a la par de que se hacían notables avances sobre la marcha, como la radiación
+                    del cuerpo negro, en 1902, por Plank, quien trabajaba en una fabrica de focos, diseñando materiales de
+                    filamentos
+                </p>
+            </div>
+            <div class="cajamenor">
+                <h2>Radiación del cuerpo negro</h2>
+                <p>Este es un modelo idealizado de la radiación a altas temperaturas, que emite particulas de masa y no
+                    de carga, que se puede definir como una caja negra que está a una temperatura muy alta y definida, la llamaremos 
+                    T
+                </p>
+                <p>Esta caja puede emitir partículas, que dependiendo de la velocidad tienen cierta energía, y que 
+                    normalmente obedecerían a la <a href="">Estadística de Boltzmann</a>, pero en este caso no se 
+                    observó que a altas velocidades de partículas era más probable encontrarlas, por lo que la 
+                    energía que esta irradiaría sería infinita aún cuando la temperatura de la caja fuera finita
+                </p>
+                <p>Esta disyuntiva tuvo su fin cuando Plank encontró que si se considera a la caja negra como un 
+                    contenedor de muelles que ejercen potencial de manera discreta, las posibilidades de estados se reducen,
+                    y la probabilidad de estados más exitados sería menor, es decir menos probable encontar una partícula de
+                    enegía mayor
+                </p>
+            </div>
+            <div class="cajamenor">
+                <p>Esto se comprueba intuitivamene, jamás observamos que una estufa emita mucho calor, apesar de la quema de 
+                    combustible, es decir, de la luz que el gas emite
+                </p>
+                <p>Este episodio se llamó la catastrofe ultravioleta, debido a que en estas frecuencias las teorías
+                    clásicas predecían que la energía (ya sea luz, partículas) debía estar constituida mayoritariamente
+                    por estas frecuencias
+                </p>
+                <p>Los muelles descritos en un inicio por Plank representan un espacio finito, en mc este tipo de problemas
+                    no pueden ser resueltos con frecuencias continuas; las frecuencias continuas no representan soluciones de 
+                    un problema de valores iniciales que debe ser 0 la funcion de onda en dos puntos: el concepto de 
+                    función de onda, operadores y observables es de suma importancia y las claves de la mecánica cuántica
+                </p>
+                <p>Es util anticipar que ya se conocía que la luz debería poseer características de onda, debido a que tienen
+                    masa 0, pero poseen momento angular, es algo parecido a una onda eléctrica;</p>
+            </div>
+        </div>
+        <hr>
+        <div class="cont2">
+            <div class="cajamenor">
+                <p>en ambos casos se considera que la velocidad de fase (la fercuencia entre el periodo) y el campo (la fuerza por unidad de masa)
+                    son los responsables de este momento angular, o consiguientemente, la energía transportada por 
+                la onda </p>
+                <p>Esta relación de energía y fase se expresa mediante la constante de Plank, que es fundamental debido
+                    a que es universal, y que discretiza los valores de energía de la onda
+                </p>
+                <p>Si bien hasta aquí se ha hablado de que esta debe ser discreta, no es una característica a priori, 
+                    ya que como se verá más adelante, las fases no deben ser discretas a priori, pero sus energías sí, 
+                    para ello es necesario definir que es una función de onda y que es un observable, y cuál es la relación que
+                    existe entre ambos
+                </p>
+                <h2>Función de Onda</h2>
+                <p>Por sí sola no tiene importancia; no representa nada físico como posición u otros observables, pero de esta
+                </p>
+            </div>
+            <div class="cajamenor">
+                <p>
+                    se derivan observables: al aplicar operadores (alguna regla o manipulación) a esta se obtienen probabilidades,
+                    pero no posiciones ni mucho menos; </p>
+                    <p>Esto es debido a que las funciones de onda son vectores, que representan un estado; la probabilidad de 
+                        observación es el producto de dos vectores: estos vectores son ortonormales, o normalizables
+                    </p>
+                    <div style="display: flex;">
+                        <div style="width: 150px;"></div>
+                        <img style="display: block;" src="C:\Users\Choco\Desktop\DS\equation.png">
+                    </div>
+                    <p>Esa expresion representa la probabilidad</p>
+                    <p>Cuando queremos decir vector, nos referimos a un espacio en el cual la funcion de onda es
+                        ortonormal consigo, esos son espacios de hilbert
+                    </p>
+                    <p>Las cantidades observables en un intervalo de la función de onda tienen la forma generica (que 
+                        aquí la representaremos como un operador)
+                    </p>
+                    <div style="display: flex;">
+                        <div style="width: 130px;"></div>
+                        <img style="display: block;" src="C:\Users\Choco\Desktop\DS\equation(1).png">
+                    </div>
+            </div>
+            <div class="cajamenor">
+                <p>Aquí x representa la posición, pero de esta probabilidad se pueden sacar conjeturas de demás observables
+                    como el momento:
+                </p>
+                <div style="display: flex;">
+                    <div style="width: 130px;"></div>
+                    <img style="display: block;" src="C:\Users\Choco\Desktop\DS\equation(2).png">
+                </div>
+                <p>Para poder trabajar debemos definir la ecuación de Schrödinger</p>
+                <div style="display: flex;">
+                    <div style="width: 130px;"></div>
+                    <img style="display: block;" src="C:\Users\Choco\Desktop\DS\equation(3).png">
+                </div>
+                <p>Que como vemos tiene un termino potencial</p>
+                <p>La importancia radica en que esta es una ecuación heurística de la función de onda, esta
+                    ecuación describe la evolución de la energía del sistema, el hamiltoniano, obteniendo el op. momento
+                </p>
+                <p>El truco de sacar observables, consiste en usar las derivadas de la eq. de Schrödinger e integrar
+                    por partes, 
+                    <div style="display: flex;">
+                        <div style="width: 150px;"></div>
+                        <img style="display: block; margin-top:-20px " src="C:\Users\Choco\Desktop\DS\equation(5).png">
+                    </div>
+                </p>
+            </div>
+        </div>
+    </body>
+    <footer>
+            <h3>Fuentes</h3>
+            <p>Harris J., Introduction to Quantum Mechanics; Jhon Wheeler and Sons, New york 1993</p>
+            <p>Davis J., Quantum Mechanics and group theory; Cambridge press, Cambridge 1990 </p>
+    </footer>
+</html>
